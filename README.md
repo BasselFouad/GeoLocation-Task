@@ -15,5 +15,5 @@ We then use the bounding box of that point to use the https://www.openstreetmap.
 We convert the XML results into a JSON array, and then we filter the incoming features according to type: Point, MultiLineString, LineString and Polygon.
 Each is displayed in a table, with some randomly chosen attributes of that feature Type.
 
-Note: Sometime the https://www.openstreetmap.org/api/0.6/map?bbox= does not return results since the bounding box would be too large. Have not implemented error handling in this task, as it was only meant as a quick, small project.
+Note: Sometimes the https://www.openstreetmap.org/api/0.6/map?bbox= does not return results since the bounding box would be too large. Have not implemented error handling in this task, as it was only meant as a quick, small project.
 Note 2: You can try testing with wittenbergplatz as the location, which will work. This is were I used to live in Berlin !
